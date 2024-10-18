@@ -2,7 +2,8 @@
 
 set -e
 
-LINUX_TARGET=x86_64-unknown-linux-gnu
+# LINUX_TARGET=x86_64-unknown-linux-gnu
+LINUX_TARGET=x86_64-unknown-linux-musl
 OUT_NAME=tencent-mars-xlog-util
 
 # rustup target add x86_64-unknown-linux-gnu
