@@ -4,6 +4,8 @@ Tencent Xlog Rust decoding and decryption
 ### ubuntu22.04
 ubuntu22.04下需要先安装rust和musl-tools，因为 Rust 需要 musl-gcc 工具链来生成静态链接的可执行文件
 ```shell
+# 更新代码
+git submodule update --init
 # 安装rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # 安装musl-tools
